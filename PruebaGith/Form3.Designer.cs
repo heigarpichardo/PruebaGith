@@ -28,13 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            
-             this.SuspendLayout();
-            // 
-            // checkBox1
-            // 
-           
-            this.checkBox1.AutoSize = true;
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
@@ -43,9 +36,12 @@
             this.dateTimePicker3 = new System.Windows.Forms.DateTimePicker();
             this.dateTimePicker4 = new System.Windows.Forms.DateTimePicker();
             this.dateTimePicker5 = new System.Windows.Forms.DateTimePicker();
-
+            this.SuspendLayout();
+            // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
             this.checkBox1.Location = new System.Drawing.Point(57, 12);
-
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(80, 17);
             this.checkBox1.TabIndex = 0;
@@ -106,7 +102,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(644, 402);
+            this.ClientSize = new System.Drawing.Size(529, 261);
             this.Controls.Add(this.dateTimePicker5);
             this.Controls.Add(this.dateTimePicker4);
             this.Controls.Add(this.dateTimePicker3);
@@ -114,7 +110,6 @@
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.maskedTextBox1);
             this.Controls.Add(this.dateTimePicker1);
-            this.ClientSize = new System.Drawing.Size(284, 261);
             this.Controls.Add(this.checkBox1);
             this.Name = "Form3";
             this.Text = "Form3";
